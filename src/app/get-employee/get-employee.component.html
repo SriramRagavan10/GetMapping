@@ -1,0 +1,28 @@
+<!-- <p>get-employee works!</p> -->
+<div>
+    <br><br><div>
+        <h1>{{title}}</h1>
+    </div>
+    <div><br><br><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Fav Movie</th>
+                    <th>No Of Movies</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let direct of dir">
+                    <td>{{direct.id}}</td>
+                    <td>{{direct.name}}</td>
+                    <td>{{direct.age}}</td>
+                    <td>{{direct.favMovie}}</td>
+                    <td>{{direct.noOfMovies}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
